@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="loginDao" class="net.mv.dao.LoginDao"></bean>
+	
+	<bean id="myCoolLoginService" class="net.mv.service.LoginService" autowire="byName">
+<!-- 		<property name="loginDao" ref="myCoolLoginDao"></property>  -->
+	</bean>
+	
+	<bean id="registerDao" class="net.mv.dao.RegisterDao"></bean>
+	
+</beans>

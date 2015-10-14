@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.1.xsd">
+	
+<!-- 	Enables AspectJ Annotations -->
+	<aop:aspectj-autoproxy/>
+	
+	
+	<bean id="event" class="net.mv.model.Event"></bean>
+	<bean id="audienceLogger" class="net.mv.model.AudienceLogger"></bean>
+
+<!--  Specifies the timer for the performance -->
+	<bean id="performanceMonitor" class="net.mv.performance.PerformanceMonitor" />
+	<bean id="aroundTimer" class="net.mv.aspects.AroundTimer"></bean>
+	
+</beans>

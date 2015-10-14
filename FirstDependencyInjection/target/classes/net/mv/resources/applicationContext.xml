@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.1.xsd">
+
+<!-- 	Enables String annotations -->
+	<context:annotation-config></context:annotation-config>
+	
+<!-- 	Enables String annotations and searches for Spring beans -->
+	<context:component-scan base-package="net.mv"/>
+	
+	
+<!-- 	Different types of Autowiring
+		1) byName
+		2) byType
+		3) Constructor
+		4) default
+		5) no
+
+ -->
+
+
+
+
+
+<!-- 	<bean id="myCoolLoginAction" class="net.mv.Action.LoginAction" > -->
+<!-- 		<property name="loginService" ref="myCoolLoginService"></property> --> 	
+<!-- 	</bean> -->	
+<!-- 	<bean id="myCoolLoginService" class="net.mv.Service.LoginService"> -->
+<!-- 		<property name="loginDao" ref="myCoolLoginDao"></property> -->
+<!-- 	</bean>	 -->
+
+<!-- 	<bean id="myCoolLoginDao" class="net.mv.Dao.LoginDAO"></bean> -->
+	
+</beans>
+
+
+
+
+<!--  
+
+	Bean Wiring - Manually defining spring beans and performing DI in XML
+	
+	Auto Wiring - Letting Spring Container "figure out" DI
+ 
+ -->
+
+
+<!-- 
+	3 types of Dependency Injection
+	
+	1) Setter Injection
+	2) Constructor Injection
+	3) Interface Injection (NOT supported by Spring)
+	
+ -->

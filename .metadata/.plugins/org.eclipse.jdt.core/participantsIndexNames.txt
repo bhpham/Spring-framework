@@ -1,0 +1,11 @@
+INDEX VERSION 1.126
+C:\Users\Binh Pham\week4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3915125155.index
+\PizzaStore\src
+C:\Users\Binh Pham\week4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\996501092.index
+\SpringMVCCalculator\src
+C:\Users\Binh Pham\week4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3734732081.index
+\SpringContextStrutsIntegration\src
+C:\Users\Binh Pham\week4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\896217083.index
+\SpringContextStrutsIntegration\src
+C:\Users\Binh Pham\week4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2366489147.index
+\FirstSpringMVC\src

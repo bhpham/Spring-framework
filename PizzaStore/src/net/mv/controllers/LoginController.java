@@ -33,9 +33,6 @@ public class LoginController {
 	public String someMethod(ModelMap model){
 
 		model.addAttribute("customer", new Customer());
-		
-		
-		
 		return "login";
 	}
 	

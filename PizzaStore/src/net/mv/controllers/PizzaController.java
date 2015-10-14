@@ -119,6 +119,6 @@ public class PizzaController {
 			session.setAttribute("errMsg", errMsg);;
 		}
 	
-		return "pizza";
+		return "order";
 	}
 }
